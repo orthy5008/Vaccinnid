@@ -1,0 +1,23 @@
+<?php
+$check = readline('Enter Your NID Number: ');
+switch($check){
+    case '526368945465654';
+    echo 'you are not complete your 3 doses yet please complete as soon as possible';
+    break;
+    case '536987452166896';
+    echo 'you are not complete your 3 doses yet please complete as soon as possible';
+    break;
+    case '6521698944459646';
+    echo  'congrates you complete your 3 doses';
+    break;
+    case '3649946216989949';
+    echo 'you did not complete any of doses';
+    break;
+     default:
+    echo 'Wrong NiD number';
+    break;
+    case '';
+    echo 'Give your NID Number';
+    
+}
+?>
